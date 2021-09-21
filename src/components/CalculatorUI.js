@@ -164,7 +164,7 @@ export default (props) => {
     return (
         <>
         <Grid container spacing={2}>
-            <Grid item xs={6}>
+            <Grid item xs={12} md={6}>
             <form onSubmit={handleSubmit}>
                 <TableContainer component={Paper}  >
                     <Table aria-label="simple table" size="small" >
@@ -207,7 +207,7 @@ export default (props) => {
             </form>
             </Grid>
 
-            <Grid item xs={6}>
+            <Grid item xs={12} md={6}>
             <Typography
                 align="center"
                 variant="h4"
